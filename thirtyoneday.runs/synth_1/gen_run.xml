@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1738792887">
-  <File Type="PA-TCL" Name="thirtyOneDayMonth.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="thirtyOneDayMonth_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="thirtyOneDayMonth_reports.tcl"/>
-  <File Type="RDS-RDS" Name="thirtyOneDayMonth.vds"/>
   <File Type="RDS-UTIL" Name="thirtyOneDayMonth_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="thirtyOneDayMonth_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="thirtyOneDayMonth.tcl"/>
+  <File Type="RDS-RDS" Name="thirtyOneDayMonth.vds"/>
   <File Type="RDS-DCP" Name="thirtyOneDayMonth.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="thirtyOneDayMonth_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="thirtyOneDayMonth_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/src/thirtyOneDayMonth.vhd">
